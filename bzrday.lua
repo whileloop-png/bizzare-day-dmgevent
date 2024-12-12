@@ -9,7 +9,7 @@ _g.volume = 10000
 local reps = game:GetService("ReplicatedStorage")
 local players = game:GetService("Players")
 
-local victim = players:FindFirstChild("enter their username here") --uhh has to be their full username too lazy to make an auto correction
+local victim = players:FindFirstChild("enter their username here") --uhh has to be their full username too lazy to make a partialname
 
 if victim and victim.Character then
     local targetcharacter = victim.Character
